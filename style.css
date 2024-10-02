@@ -1,0 +1,87 @@
+/* Definindo a cor de fundo escura e as cores de texto claras */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo geral para o contêiner */
+.container {
+    text-align: center;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Título do formulário */
+h1 {
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+/* Estilo dos rótulos e campos de input */
+label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #f0f0f0;
+    display: block;
+}
+
+input[type="number"] {
+    background-color: #3a3a3a;
+    border: 1px solid #5a5a5a;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f0f0f0;
+    width: calc(100% - 24px);
+    margin-bottom: 20px;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Estilo da mensagem de validação */
+#mensagem {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 480px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
